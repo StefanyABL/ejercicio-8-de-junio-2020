@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Esto es otro comentario -->
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+
+<script src="js/jQuery.js"></script>
+<script src="jquery-ui/jquery-ui.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+<script>
+$(function() {
+	$("#dateTwo").datepicker({
+		changeMonth: true,
+		changeYear: true
+	});
+});
+</script>
+</head>
+
+<body>
+<div class ="container">
+<form>
+<div class="form-row">
+<div class="form-group col-12  col-sm">
+<label for="numOne">N&uacute;mero Uno</label>
+<input type="number" id="numOne" class="form-control">
+
+</div>
+
+
+<div class="form-group col-12  col-sm">
+<label for="numTwo">N&uacute;mero Dos</label>
+<input type="number" id="numTwo" class="form-control">
+
+</div>
+</div>
+
+<div class="form-row">
+<div class="form-group col-12  col-sm">
+
+
+</div>
+<div class="form-group col-12  col-sm">
+
+
+
+</div>
+
+<div class="form-group col-12  col-sm">
+
+<button type="button" class="btn btn-success" onclick="begin()">Enviar</button>
+
+</div>
+<div class="form-group col-12  col-sm">
+
+
+
+</div>
+<div class="form-group col-12  col-sm">
+
+
+
+</div>
+
+
+<div class="form-group col-12  col-sm">
+
+
+
+</div>
+<div class="form-group col-12  col-sm">
+
+
+
+</div>
+
+<div class="form-group col-12  col-sm">
+<button type="reset" class="btn btn-warning">Limpiar</button>
+
+</div>
+<div class="form-group col-12  col-sm">
+
+
+
+</div>
+<div class="form-group col-12  col-sm">
+
+
+
+</div>
+
+
+
+</div>
+
+</form>
+<div class="row">
+<div class= "col-12 col-sm" style="background: orange">
+<h3>D&iacute;gito</h3>
+     <h3 id="layout"></h3>
+      <h3 id="layout1"></h3>
+   
+</div>
+<div  class= "col-12 col-sm" style="background: navajowhite">
+<h3 >Fibonacci</h3>
+      <h3 id="layout2"></h3>
+   
+</div>
+<div class= "col-12 col-sm" style="background: sienna">
+<h3>Perfectos</h3>
+        <h3 id="layout3"></h3>
+
+</div>
+</div>
+</div>
+
+</body>
+</html>
